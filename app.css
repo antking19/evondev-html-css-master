@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #f5f5f5;
+}
+
+.tour {
+    width: 370px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tour-content {
+    padding: 20px 20px 14px 20px;
+}
+
+.tour-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.556;
+    margin-bottom: 10px;
+    color: #23262f;
+    width: 258px;
+}
+
+.tour-rating {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tour-review-count {
+    color: #3b3e44;
+    line-height: 1.92;
+}
+
+.tour-duration {
+    color: #353945;
+    line-height: 1.42;
+}
+
+.tour-button {
+    font-size: 14px;
+    padding: 8px 17px;
+    color: #f4f5f6;
+    background-color: #3b71fe;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 17px;
+}
