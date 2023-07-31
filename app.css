@@ -21,14 +21,15 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
     flex-direction: row;
-    margin-left: -30px;
+    /* margin-left: -30px; */
+    gap: 30px;
 }
 
 .tour {
-    width: calc(33.33% - 30px);
+    width: calc(33.33% - 20px);
     background-color: white;
     border-radius: 10px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 /* .tour:first-child {
@@ -51,7 +52,17 @@ body {
     line-height: 1.556;
     margin-bottom: 10px;
     color: #23262f;
-    width: 258px;
+    /* width: 258px; */
+    /**/
+    /*white-space: nowrap;
+    overflow: hidden;
+     text-overflow: ellipsis; 1 hàng có dấu ... */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word; /*Chữ dính nhau thì rớt xuống dòng không bị tràng ra*/
 }
 
 .tour-rating {
@@ -67,6 +78,7 @@ body {
     align-items: center;
     font-size: 14px;
     font-weight: 500;
+    column-gap: 9px;
 }
 
 .tour-review-count {
